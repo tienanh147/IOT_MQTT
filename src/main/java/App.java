@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        String subTopic = "/iot/subc";
+        String subTopic = "/iot/sub";
         String pubTopic = "/iot/sub";
         int qos = 2;
         String broker = "tcp://broker.hivemq.com:1883";
