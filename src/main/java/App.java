@@ -9,8 +9,8 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        String subTopic = "/iot/sub";
-        String pubTopic = "/iot/sub";
+        String subTopic = "/ktmt/iot/sub";
+        String pubTopic = "/ktmt/iot/pub";
         int qos = 2;
         String broker = "tcp://broker.hivemq.com:1883";
         String clientId = "JAVA_APP";
